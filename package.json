@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "start-server -s ./frontend/dist",
+    "start": "node node_modules/@hexlet/chat-server/bin/start-server.js -s ./frontend/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
