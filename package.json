@@ -15,10 +15,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/@hexlet/chat-server/bin/start-server.js -s frontend/dist",
+    "start": "serve -s ./frontend/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@hexlet/chat-server": "^2.0.4"
+    "@hexlet/chat-server": "^2.0.4",
+    "serve": "^14.2.5"
   }
 }
